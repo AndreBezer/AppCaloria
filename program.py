@@ -21,7 +21,8 @@ BotaoAdicionar = ctk.CTkButton(
     width=50,
     height=50,
     corner_radius=25,
-    font=("Arial", 20))
+    font=("Arial", 20),
+    fg_color="green")
 # Posicionar o botão no canto inferior direito
 BotaoAdicionar.place(
     relx=1.0,
